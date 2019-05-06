@@ -24,9 +24,13 @@ export default {
         return {
             drawer: false,
             items: [
-                { title: 'Menu' },
-                { title: 'Sign In' },
-                { title: 'Join' }
+                { title: 'Услуги' },
+                { title: 'Наши тренеры' },
+                { title: 'Тренажеры' },
+                { title: 'Расписание' },
+                { title: 'Акции' },
+                { title: 'О компании' },
+                { title: 'Контакты' }
             ]
         };
     }
