@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+        <slider></slider>
     </div>
 </template>
 
@@ -7,6 +8,9 @@
 // @ is an alias to /src
 
 export default {
-    name: 'home'
+    name: 'home',
+    components: {
+        slider: () => import('@/components/Slider.vue')
+    }
 };
 </script>
